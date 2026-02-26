@@ -9,3 +9,6 @@ def process = "docker ps".execute()
 process.waitFor()
 println process.text
 ```
+
+# Running the project
+Run: `docker compose up` or `docker-compose up` depending on your docker compose version. 
